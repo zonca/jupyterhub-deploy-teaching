@@ -19,6 +19,8 @@ Prerequisites
   * `Let's Encrypt <https://letsencrypt.org/>`_
   * obtain a trusted SSL certificate and key for the server at that FQDN.
 
+- Have Ansible v2.0 or greater installed (Use ``pip install ansible>=2.0``)
+
 Create the hosts group
 ----------------------
 
