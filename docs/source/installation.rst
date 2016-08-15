@@ -6,7 +6,7 @@ Prerequisites
 
 - Start a server running latest Ubuntu version.
 
-- Enable password-less SSH access for :command:`root` user.
+- Enable password-less SSH access for :command:`ubuntu` user.
 
 - Partition and format any local disks you want to mount.
 
