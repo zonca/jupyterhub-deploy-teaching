@@ -172,18 +172,12 @@ oauth_client_secret: ''
 # http://nbgrader.readthedocs.io/en/stable/
 
 # Set to `true` to enable.
-use_nbgrader: true
+use_nbgrader: false
 
 # The list of nbgrader courses. Each must have a unique `course_id` and `port`.
 # IMPORTANT: These user accounts must be created before the ansible scripts
 # are run. If OAuth is used, passwords must be disabled for those users.
-nbgrader_courses:
-  - {
-      course_id: "COURSEID",
-      owner: "zonca",
-      graders: ["zonca"],
-      port: 5005
-    }
+#nbgrader_courses:
 
 # ------------------------------------------------------------------------------
 # cull_idle_servers
