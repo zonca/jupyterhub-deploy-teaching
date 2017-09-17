@@ -181,12 +181,14 @@ nbgrader_courses:
       course_id: "course1",
       owner: "instructor1",
       graders: ["instructor1", "grader1"],
+      students: ["student1-course1", "student2-course1"],
       port: 5005
     }
   - {
       course_id: "course2",
       owner: "instructor2",
       graders: ["instructor2", "grader2"],
+      students: ["student1-course2", "student2-course2"],
       port: 5006
     }
 

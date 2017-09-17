@@ -22,6 +22,13 @@ c.JupyterHub.load_groups = {
 {%- endfor -%}
     ],
 {% endfor -%}
+{%- for course in nbgrader_courses -%}
+    'nbgrader-{{course.course_id}}': [
+{%- for student in course.students -%}
+        '{{student}}',
+{%- endfor -%}
+    ],
+{% endfor -%}
 {%- endif %}
 }
 
