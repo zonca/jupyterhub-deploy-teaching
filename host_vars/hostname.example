@@ -37,7 +37,7 @@ install_bash_kernel: true
 
 # Secret token for proxy access. Create token using something like
 # `openssl rand -hex 32` and enter between quotation marks below.
-proxy_auth_token: "{{ lookup('file', '/sensitive_data/proxy_auth_token.txt') }}"
+proxy_auth_token: "{{ lookup('file', 'sensitive_data/proxy_auth_token.txt') }}"
 
 # Cleanup single user servers and the proxy on jupyterhub shutdown. Setting
 # this to false, will allow jupyterhub to be restarted while leaving the proxy
